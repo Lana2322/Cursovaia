@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace PsHospital1
+{
+    public partial class Func : Form
+    {
+        public Func()
+        {
+            InitializeComponent();
+        }
+
+        private void WomanButton_Click(object sender, EventArgs e)
+        {
+            Woman wmn = new Woman();
+        }
+
+        private void DangerButton_Click(object sender, EventArgs e)
+        {
+            DangerPacient DP = new DangerPacient();
+        }
+
+    }
+}
