@@ -25,6 +25,25 @@ namespace PsHospital1
         {
             DangerPacient DP = new DangerPacient();
         }
+        
+        private void AllButton_Click(object sender, EventArgs e)
+        {
+            AllAge AA = new AllAge();
+        }
 
+        private void ComeButton_Click(object sender, EventArgs e)
+        {
+            Grafik Graf = new Grafik();
+        }
+
+        private void StatusButton_Click(object sender, EventArgs e)
+        {
+            Diagrama Diag = new Diagrama();
+        }
+
+        private void DiagnosButton_Click(object sender, EventArgs e)
+        {
+            Stolbik Stolb = new Stolbik();
+        }
     }
 }
