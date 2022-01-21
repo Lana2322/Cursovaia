@@ -42,7 +42,7 @@ namespace PsHospital1
             else { PacientIndex = ind; }
             NameTextBox.Text = Hos.Pacients[PacientIndex].Name;
             AgeNumericUpDown.Value = Hos.Pacients[PacientIndex].Age;
-            comboBox1.Text = Hos.Pacients[PacientIndex].Genre;
+            comboBox1.Text = Hos.Pacients[PacientIndex].Gender;
             dateTimePicker1.Text = Hos.Pacients[PacientIndex].Data;
             DiagnosTextBox.Text = Hos.Pacients[PacientIndex].Diagnos;
             StatusNumericUpDown.Value = Hos.Pacients[PacientIndex].Status;
