@@ -33,7 +33,7 @@ namespace PsHospital1
                 {
                     if (Hos.Pacients.Danger == true)
                     {
-                        INSERT [INTO] dataGridView1 VALUES (Pacient.Name, Pacient.Age, Pacient.Genre, Pacient.Data, Pacient.Status, Pacient.Diagnos, Pacient.Danger);
+                        INSERT [INTO] dataGridView1 VALUES (Pacient.Name, Pacient.Age, Pacient.Gender, Pacient.Data, Pacient.Status, Pacient.Diagnos, Pacient.Danger);
                     }
                 }
             }
