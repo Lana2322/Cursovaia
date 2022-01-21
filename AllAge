@@ -37,7 +37,7 @@ namespace PsHospital1
             {
                 if (Hos.Pacients.Data == dateTimePicker1)
                 {
-                    INSERT [INTO] dataGridView1 VALUES (Pacients.Name, Pacients.Age, Pacient.Genre, Pacient.Data, Pacient.Status, Pacient.Diagnos, Pacient.Danger);
+                    INSERT [INTO] dataGridView1 VALUES (Pacients.Name, Pacients.Age, Pacient.Gender, Pacient.Data, Pacient.Status, Pacient.Diagnos, Pacient.Danger);
                 }
             }
         }
