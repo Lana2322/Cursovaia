@@ -31,7 +31,7 @@ namespace PsHospital1
             {
                 if (Hos.Pacients.Data == dateTimePicker1)
                 {
-                    if (Hos.Pacients.Genre == "женский")
+                    if (Hos.Pacients.Gender == "женский")
                     {
                         al = al + 1;
                         f = f + 1;
